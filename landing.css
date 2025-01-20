@@ -2,3 +2,73 @@ body, html {
  background-image: url("./Media/landingBackground.gif");
 }
 
+a:link {
+background-color: transparent;
+text-decoration: none;
+color: white;
+}
+
+a:visited {
+background-color: transparent;
+text-decoration: none;
+color: white;
+}
+
+a:hover {
+color:Black;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:active {
+background-color: transparent;
+text-decoration: none;
+color: white;
+}
+
+h1 {
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+color: white;
+}
+
+#titleBar {
+    background-image: url('./Media/orbital_ring.png');
+}
+
+#titleBar2 {
+    background-image: url('./Media/orbital_ring_red.png');
+}
+
+
+#pageBody {
+    background-image: url('./Media/orbital_ring_dark.png');
+    color:white; 
+}
+
+.image {
+    justify-content: center;
+    text-align: center; 
+    position: relative;
+    top: 20%;
+}
+
+.image2 {
+    justify-content: center;
+    text-align: center; 
+    position: relative;
+    right: 10%;
+}
+
+.image-title {
+    position: relative;
+    top: 5%;
+}
+
+.image-title2 {
+    position: relative;
+    top: 0%;
+    right: 10%;
+}
+
+
